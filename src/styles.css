@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Glamore';
+    src: url('./assets/fonts/Glamore.otf') format('opentype'),
+         url('./assets/fonts/Glamore.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.title {
+    font-family: 'Glamore', serif;
+    font-size: 5rem;
+    text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.sub-title {
+    font-family: 'Glamore', serif;
+    font-size: 2rem;
+     text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+}
+
+.hero-section {
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+                      url(./assets/images/the-rock-sitting.webp);
+    background-size: cover;
+    background-position: center;   
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+
+}
+
+.content-section {
+    display: flex;
+    justify-content: center;
+
+}
+
+.description {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    line-height: 1.5;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    padding: 2rem;
+}
+
+nav button {
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+
+
+
