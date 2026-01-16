@@ -1,20 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div class="header">
-        <nav class="nav">
-            <button id="home">HOME</button>
-            <button id  ="menu">MENU</button>
-            <button id="about">ABOUT</button>
-        </nav>
-    </div>
-    <div id="content">
-        <div class="hero-section">
+const loadHomePage = () => {
+    const content = document.getElementById('content')
+    
+    const htmlLayout = `
+           <div class="hero-section">
             <div class="hero-content">
                 <div class="title">THE ROCK INN</div>
                 <div class="sub-title">AT CHIDDINGSTONE</div>
@@ -33,11 +21,10 @@
                 <span>
                     Settle in by the fire, raise a glass, and savour the charm of a true English inn. Every visit feels like coming home.
                 </span>      
-        </div>
-        </div>
-        
-        <div class="image-section"></div>
-    </div>
+    `;
     
-</body>
-</html>
+    content.innerHTML = htmlLayout;
+    console.log("content cleared and function fired!");
+}
+
+export default loadHomePage;
