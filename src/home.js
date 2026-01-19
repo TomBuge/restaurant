@@ -10,7 +10,7 @@ const loadHomePage = () => {
             
         </div>
         <div class="content-section">
-            <div class="description">
+            <div class="description-content">
                 <span>
                     Welcome to The Rock, a timeless country pub nestled in the heart of Chiddingstone.
                 Steeped in history and surrounded by rolling Kentish countryside, it is a place where good food and warm hospitality come together.
